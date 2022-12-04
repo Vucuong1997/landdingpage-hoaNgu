@@ -1,0 +1,337 @@
+@font-face {
+  src: local("UTM Avo"), url("fonts/UTM Avo.ttf") format("opentype");
+  font-family: UTM Avo;
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  src: local("UTM-Avo-Bold"), url("fonts/UTM-Avo-Bold.ttf") format("opentype");
+  font-family: UTM Avo;
+  font-weight: 600;
+  font-style: normal; }
+* {
+  font-family: UTM Avo;
+  font-style: normal; }
+
+a {
+  cursor: pointer; }
+
+a:hover {
+  color: red !important; }
+
+#landingPage {
+  font-family: UTM Avo; }
+  #landingPage .box-1 {
+    padding: 40px;
+    background-color: #febc59; }
+    #landingPage .box-1 .box-tool-order {
+      width: 283px; }
+      #landingPage .box-1 .box-tool-order .icon-coccoc {
+        width: 62px;
+        height: 62px;
+        margin-right: 5px; }
+      #landingPage .box-1 .box-tool-order .icon-chrome {
+        width: 60px;
+        height: 60px; }
+    #landingPage .box-1 .logo-brand {
+      width: 150px; }
+    #landingPage .box-1 .header {
+      border-bottom: 1px solid #bd1f24; }
+      #landingPage .box-1 .header p {
+        font-weight: 400;
+        font-style: normal;
+        color: #bd1f24;
+        text-decoration: none;
+        padding-bottom: 10px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        line-height: 22px; }
+      #landingPage .box-1 .header .text-middle {
+        font-family: UTM Avo;
+        font-weight: 700;
+        font-style: normal;
+        color: #bd1f24;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px; }
+    #landingPage .box-1 .content {
+      margin-top: 95px;
+      position: relative;
+      width: 100%;
+      min-height: 400px;
+      background-size: cover;
+      background: url(https://media-private.canva.com/MADIyEo7W8U/1/screen_2x.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20221202%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221202T184919Z&X-Amz-Expires=43449&X-Amz-Signature=3f7efe9a20b18d405b1045ede2807529df67b6d2817715e8b91f6d9c423fcdf6&X-Amz-SignedHeaders=host&response-expires=Sat%2C%2003%20Dec%202022%2006%3A53%3A28%20GMT) no-repeat center; }
+      #landingPage .box-1 .content .tool-order {
+        background-color: white;
+        border-radius: 40px;
+        padding: 20px; }
+        #landingPage .box-1 .content .tool-order p {
+          font-family: UTM Avo;
+          font-size: 24px;
+          color: #febc59;
+          line-height: 15px;
+          font-weight: 600;
+          font-style: normal;
+          text-transform: uppercase;
+          margin-bottom: 0px; }
+      #landingPage .box-1 .content .transport {
+        position: absolute;
+        top: -95px;
+        right: 0px; }
+        #landingPage .box-1 .content .transport p {
+          font-family: UTM Avo;
+          font-size: 80px;
+          color: white;
+          line-height: 80px;
+          font-weight: 600;
+          list-style-type: none;
+          text-transform: uppercase;
+          text-align: end; }
+  #landingPage .box-2 {
+    padding: 40px 40px 80px 40px; }
+    #landingPage .box-2 .logo-brand {
+      width: 125px;
+      height: 125px; }
+    #landingPage .box-2 .header p {
+      font-family: UTM Avo;
+      font-size: 68px;
+      color: #bd1f24;
+      line-height: 72px;
+      letter-spacing: 0em;
+      text-transform: none;
+      list-style-type: none;
+      font-weight: bold;
+      margin-bottom: 0px; }
+    #landingPage .box-2 .content p {
+      font-family: UTM Avo;
+      font-size: 21.5331px;
+      color: #bd1f24;
+      line-height: 40px;
+      letter-spacing: 0em;
+      --para-spacing: 0;
+      text-transform: none;
+      --head-indent: 0;
+      --numeric-list-marker: none;
+      list-style-type: none;
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-align: justify; }
+    #landingPage .box-2 .contact {
+      position: absolute;
+      right: 150px;
+      bottom: 52px; }
+      #landingPage .box-2 .contact p {
+        font-weight: 600;
+        font-style: normal;
+        color: #bd1f24;
+        font-size: 29.0106px;
+        line-height: 45px;
+        letter-spacing: 0em;
+        --para-spacing: 0;
+        text-transform: none;
+        --head-indent: 0;
+        --numeric-list-marker: none;
+        list-style-type: none;
+        /* text-decoration: underline; */
+        border-bottom: 4px solid #bd1f24; }
+  #landingPage .box-3 {
+    background-color: #bd1f24; }
+    #landingPage .box-3 .content p {
+      font-family: UTM Avo;
+      font-size: 21.5331px;
+      color: #bd1f24;
+      line-height: 40px;
+      letter-spacing: 0em;
+      --para-spacing: 0;
+      text-transform: none;
+      --head-indent: 0;
+      --numeric-list-marker: none;
+      list-style-type: none;
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      padding: 0px;
+      margin-bottom: 0px;
+      text-align: justify; }
+    #landingPage .box-3 .contact p {
+      border-bottom: 4px solid white; }
+  #landingPage .box-4 {
+    background-color: #febc59; }
+    #landingPage .box-4 .contact p {
+      border-bottom: 4px solid white; }
+  #landingPage .box-5 {
+    padding: 40px 40px 80px 40px; }
+    #landingPage .box-5 .header p {
+      font-family: UTM Avo;
+      font-size: 68px;
+      color: #bd1f24;
+      line-height: 72px;
+      letter-spacing: 0em;
+      text-transform: none;
+      list-style-type: none;
+      font-weight: bold;
+      margin-bottom: 0px; }
+    #landingPage .box-5 .content p {
+      font-family: UTM Avo;
+      font-size: 21.5331px;
+      color: #bd1f24;
+      line-height: 40px;
+      letter-spacing: 0em;
+      --para-spacing: 0;
+      text-transform: none;
+      --head-indent: 0;
+      --numeric-list-marker: none;
+      list-style-type: none;
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-align: justify; }
+    #landingPage .box-5 .contact {
+      position: absolute;
+      right: 150px;
+      bottom: 52px; }
+      #landingPage .box-5 .contact p {
+        font-weight: 600;
+        font-style: normal;
+        color: #bd1f24;
+        font-size: 29.0106px;
+        line-height: 45px;
+        letter-spacing: 0em;
+        --para-spacing: 0;
+        text-transform: none;
+        --head-indent: 0;
+        --numeric-list-marker: none;
+        list-style-type: none;
+        border-bottom: 4px solid #bd1f24; }
+  #landingPage .box-6 {
+    background-color: #bd1f24; }
+    #landingPage .box-6 .content p {
+      font-family: UTM Avo;
+      font-size: 21.5331px;
+      color: white;
+      line-height: 40px;
+      letter-spacing: 0em;
+      --para-spacing: 0;
+      text-transform: none;
+      --head-indent: 0;
+      --numeric-list-marker: none;
+      list-style-type: none;
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      padding: 0px;
+      margin-bottom: 0px;
+      text-align: justify; }
+    #landingPage .box-6 .about-us .title {
+      font-size: 69.3333px;
+      color: white;
+      line-height: 115px;
+      letter-spacing: 0em;
+      --para-spacing: 0;
+      text-transform: none;
+      --head-indent: 0;
+      --numeric-list-marker: none;
+      list-style-type: none;
+      font-weight: bold; }
+    #landingPage .box-6 .about-us .text {
+      font-size: 22.6665px;
+      color: white;
+      line-height: 31px;
+      letter-spacing: 0em;
+      --para-spacing: 0;
+      text-transform: none;
+      --head-indent: 0;
+      --numeric-list-marker: none;
+      list-style-type: none;
+      font-weight: 400; }
+  #landingPage .box-7 .about-us .item {
+    margin-bottom: 25px; }
+  #landingPage .box-7 .about-us .title {
+    font-size: 21.0877px;
+    color: #bd1f24;
+    line-height: 29px;
+    letter-spacing: 0em;
+    --para-spacing: 0;
+    text-transform: uppercase;
+    --head-indent: 0;
+    --numeric-list-marker: none;
+    list-style-type: none;
+    font-weight: bold; }
+  #landingPage .box-7 .about-us .text {
+    font-size: 25.3331px;
+    color: #bd1f24;
+    line-height: 35px;
+    letter-spacing: 0em;
+    --para-spacing: 0;
+    text-transform: none;
+    --head-indent: 0;
+    --numeric-list-marker: none;
+    list-style-type: none; }
+
+.text-white {
+  color: white; }
+
+@media screen and (max-width: 768px) {
+  .box-1 .logo-brand {
+    width: 120px !important; }
+
+  #landingPage .box-1 .content .transport p {
+    font-size: 25px;
+    line-height: 25px; }
+
+  #landingPage .box-2 .header p {
+    font-size: 19px;
+    line-height: 30px; }
+  #landingPage .box-2 .logo-brand {
+    width: 65px;
+    height: 65px; }
+
+  #landingPage .box-2 .contact p {
+    font-weight: 600;
+    font-size: 17.0106px;
+    line-height: 27px; }
+
+  #landingPage .box-2 .contact {
+    position: absolute;
+    right: 46px;
+    bottom: 44px; }
+
+  #landingPage .box-2 .content p {
+    font-size: 16.5331px; }
+
+  #landingPage .box-6 .about-us .title {
+    font-size: 30.3333px;
+    line-height: 50px; }
+
+  #landingPage .box-6 .about-us .text {
+    font-size: 13.6665px;
+    line-height: 19px; }
+
+  #landingPage .box-7 .about-us .text {
+    font-size: 16.3331px;
+    line-height: 23px; }
+
+  #landingPage .box-1 .box-tool-order .icon-coccoc {
+    width: 40px; }
+
+  #landingPage .box-1 .box-tool-order .icon-chrome {
+    width: 40px;
+    height: 60px; }
+
+  #landingPage .box-1 .content .tool-order p {
+    font-size: 15px; }
+
+  #landingPage .box-1 .box-tool-order {
+    width: 175px; }
+
+  #landingPage .box-1 .box-tool-order {
+    width: 175px;
+    align-items: center; }
+
+  #landingPage .box-1 .content .tool-order {
+    padding: 9px 12px; }
+
+  #landingPage .box-1 .header p {
+    font-size: 11px; } }
+
+/*# sourceMappingURL=langdingpage.css.map */
